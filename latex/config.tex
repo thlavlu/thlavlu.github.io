@@ -1,0 +1,69 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% -- alan config begin
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\markdownRendererLink#1#2#3#4{\href{#3}{#1}{}{}} % fix markdown link
+\usepackage{blindtext} % blind text
+\usepackage{tabularx} % flexible column X
+\usepackage{booktabs} % \toprule, \midrule, \bottomrule
+\usepackage{listings} % code listing
+\usepackage{subcaption} % subfigures
+\usepackage{ragged2e} % \justify
+\usepackage{graphicx} % includegraphics
+\usepackage{acronym} % \newacro and \ac
+\graphicspath{{figs}} % includegraphics figs
+\usepackage{url} % \url
+\usepackage{array}
+\newcommand{\ie}[0]{\textit{i.e.},~}
+\newcommand{\eg}[0]{\textit{e.g.},~}
+\newcommand{\etal}[0]{\textit{et al.}~}
+\newcommand\setEnumItemNoSep{% called preamble
+    \usepackage{enumitem}
+    \setlist[itemize]{noitemsep, nosep, topsep=0pt, partopsep=0pt, parsep=0pt, itemsep=0pt, leftmargin=*,rightmargin=0pt} % set enum key
+    \setlist[enumerate]{noitemsep, nosep, topsep=0pt, partopsep=0pt, parsep=0pt, itemsep=0pt, leftmargin=*,rightmargin=0pt} % set enum key
+}
+\newcommand\setItemizeUseHyphen{% called preamble
+    \usepackage{enumitem}
+    \def\labelitemi{-}
+}
+\newcommand\setLargeGeometry{% called in preamble
+    \usepackage[a4paper, left=20mm, top=20mm]{geometry}
+}
+\newcommand\setParagraphReducedSpacing{% called preamble
+    \linespread{1}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}
+}
+\newcommand{\gingaITU}{\href{https://www.itu.int/rec/T-REC-H.761}{TV API standards}}
+\newcommand{\gingaSBTVD}{\href{https://forumsbtvd.org.br/legislacao-e-normas-tecnicas/normas-tecnicas-da-tv-digital/english/}{TV API standards}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% -- alan config end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% -- alan moderncv begin
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{footmisc} % enabling footnotes for moderncv
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+\name{Alan}{Guedes}
+\email{a.guedes@reading.ac.uk}
+\homepage{alanlivio.github.io}
+\collectionadd[github]{socials}{\protect\httpslink[github]{github.com/alanlivio}}
+\collectionadd[googlescholar]{socials}{\protect\httpslink[scholar]{scholar.google.com/citations?hl=en&user=1bEOmkUAAAAJ&sortby=pubdate}}
+
+% modercv has no figure, table
+\usepackage{float}
+\newfloat{figure}{htbp}{figs}
+\newfloat{table}{htbp}{figs}
+\newcommand\setHyperrefBlueLinks{% called inside document
+    \definecolor{links}{HTML}{2A1B81}
+    \hypersetup{
+        urlcolor=links,
+        linkcolor=links,
+        citecolor=links
+    }
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% -- alan moderncv end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
