@@ -21,7 +21,7 @@ sections:
           date_start: '2023-07-01'
           date_end: ''
           description: |2-
-            - Contribute to Departament Teaching and Research
+            - Contribute.......
         - title: BSc
           company: BRAC University
           company_url: 'http://lasp-ucl.github.io'
@@ -30,7 +30,7 @@ sections:
           date_start: '2018-05-01'
           date_end: '2022-05-01'
           description: |2-
-            - Contribute to ACM SIGMM committees and workshop organiser;
+            - Contribute......
     design:
       columns: '2'
   - block: experience
