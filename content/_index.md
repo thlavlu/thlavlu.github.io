@@ -13,27 +13,24 @@ sections:
       title: Education
       date_format: Jan 2006
       items:
-        - title: Lecturer Researcher
-          company: University of Reading
-          company_url: 'https://www.reading.ac.uk/computer-science/'
+        - title: MSc
+          company: BUET
+          company_url: 'https://www.buet.ac.bd/web/#/'
           company_logo: reading
-          location: Reading, UK
-          date_start: '2024-03-18'
+          location: Dhaka, Bangladesh
+          date_start: '2023-07-01'
           date_end: ''
           description: |2-
             - Contribute to Departament Teaching and Research
-            - Supervised undergrad and postgraduate students.
-        - title: Postdoc Researcher
-          company: UCL
+        - title: BSc
+          company: BRAC University
           company_url: 'http://lasp-ucl.github.io'
           company_logo: ucl
-          location: Reading, UK
-          date_start: '2021-04-01'
-          date_end: '2024-03-01'
+          location: Dhaka, Bangladesh
+          date_start: '2018-05-01'
+          date_end: '2022-05-01'
           description: |2-
             - Contribute to ACM SIGMM committees and workshop organiser;
-            - Co-supervised undergrad and M.Sc. students.
-            - SpheryStream project funded by EPSRC to Improve 360-video streaming with profile-based methods
     design:
       columns: '2'
   - block: experience
