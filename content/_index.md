@@ -8,6 +8,35 @@ sections:
       title: About me
       username: admin
   - block: experience
+    id: education
+    content:
+      title: Education
+      date_format: Jan 2006
+      items:
+        - title: Lecturer Researcher
+          company: University of Reading
+          company_url: 'https://www.reading.ac.uk/computer-science/'
+          company_logo: reading
+          location: Reading, UK
+          date_start: '2024-03-18'
+          date_end: ''
+          description: |2-
+            - Contribute to Departament Teaching and Research
+            - Supervised undergrad and postgraduate students.
+        - title: Postdoc Researcher
+          company: UCL
+          company_url: 'http://lasp-ucl.github.io'
+          company_logo: ucl
+          location: Reading, UK
+          date_start: '2021-04-01'
+          date_end: '2024-03-01'
+          description: |2-
+            - Contribute to ACM SIGMM committees and workshop organiser;
+            - Co-supervised undergrad and M.Sc. students.
+            - SpheryStream project funded by EPSRC to Improve 360-video streaming with profile-based methods
+    design:
+      columns: '2'
+  - block: experience
     id: experience
     content:
       title: Experience
