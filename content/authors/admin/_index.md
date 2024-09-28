@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Tousif Hasan Lavlu
+title: Md Tousif Hasan Lavlu
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "Tousif Hasan Lavlu"
+- "Md Tousif Hasan Lavlu"
 
 # Role/position
-role: Lecturer, University of Reading
+role: Lecturer, Department of CSE, Shanto-Mariam University of Creative Technology
 
 # Short bio (displayed in user profile at end of posts)
 bio: ""
@@ -16,25 +16,19 @@ bio: ""
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:alanlivio@outlook.com'
+  link: 'mailto:thlavlu@gmail.com'
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=1bEOmkUAAAAJ&hl=en
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/alanlivio
+  link: https://scholar.google.com/citations?user=fE-nhx4AAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/alanlivio
+  link: https://github.com/thlavlu
 - icon: linkedin
   icon_pack: fab
-  link: 'https://linkedin.com/in/alanlivio'
+  link: 'https://linkedin.com/in/thlavlu'
 - icon : orcid
   icon_pack : ai
-  link : 'https://orcid.org/0000-0003-0110-9975'
-- icon : clarivate
-  icon_pack : ai
-  link : 'https://www.webofscience.com/wos/author/record/ABS-3947-2022'
+  link : 'https://orcid.org/0009-0009-4306-0541'
 - icon: cv
   icon_pack: ai
   link: cv
@@ -43,8 +37,11 @@ social:
   link: certificates/
 
 interests:
-  - Multimedia Systems
   - Machine Learning
+  - Computer Vision
+  - Federated Learning
+  - Reinforcement Learning
+  - Cognitive Computing
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -52,4 +49,4 @@ user_groups:
 - Researchers
 ---
 
-I am a Lecturer at the University of Reading working on leveraging machine learning to optimise both traditional and immersive media technologies. Previously, I was a postdoc at UCL and did PhD at PUC-Rio. I have experience acting as a team leader or PI in multiple funded research projects (e.g., immersive media, video analysis and interactive TV) and contributed to research communities (ACM SIGMM, SBC WebMedia) and standard committees (ITU-T SG16, Brazilian TV Forum).
+I am a Lecturer at the Department of CSE, Shanto-Mariam University of Creative Technology.
