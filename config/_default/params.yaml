@@ -3,11 +3,11 @@ theme_day: minimal
 theme: minimal
 marketing:
   seo:
-    site_type: EducationalOrganization
+    site_type: Educational
     local_business_type: ''
-    org_name: 'Alan Guedes'
-    description: 'Alan Guedes'
-    twitter: 'alanlivio'
+    org_name: 'THL'
+    description: 'thl'
+    twitter: 'thl'
   analytics:
     google_analytics: ''
   verification:
@@ -23,7 +23,7 @@ header:
     highlight_active_link: true
 footer:
   copyright:
-    notice: '© {year} Tousif Hasan Lavlu. This work is licensed under {license}'
+    notice: '©2024 Md Tousif Hasan Lavlu. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

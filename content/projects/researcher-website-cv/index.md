@@ -6,7 +6,7 @@ links:
   - icon: github
     icon_pack: fab
     name: Github
-    url: "https://github.com/alanlivio/alanlivio.github.io"
+    url: "https://github.com/thlavlu/thlavlu.github.io"
 ---
 <p align="center">
 <img src="https://raw.githubusercontent.com/alanlivio/bash-helpers/master/logo.svg" width="250"/>
