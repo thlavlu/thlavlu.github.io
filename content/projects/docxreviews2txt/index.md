@@ -1,5 +1,5 @@
 ---
-title: docxreviews2txt
+title: Template
 summary: Command line tool to extract review changes from a docx file as plain text.
 tags:
 - utils

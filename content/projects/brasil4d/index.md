@@ -1,5 +1,5 @@
 ---
-title: Brasil4D
+title: Template
 summary: World Bank project to use Ginga Interative TV content for social impact
 tags:
 - social_impact

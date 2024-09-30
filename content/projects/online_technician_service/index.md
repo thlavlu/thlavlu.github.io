@@ -1,15 +1,14 @@
 ---
-title: Research CV template
+title: Online Technician Service
 tags:
-- utils
+- undergraduate_project
 links:
   - icon: github
     icon_pack: fab
     name: Github
-    url: "https://github.com/thlavlu/thlavlu.github.io"
+    url: "https://github.com/thlavlu/OnlineTechnicianService"
 ---
 <p align="center">
 <img src="https://raw.githubusercontent.com/alanlivio/bash-helpers/master/logo.svg" width="250"/>
 </p>
-
-{{< gh_proj_desc "alanlivio/alanlivio.github.io">}}
+* Description will be added

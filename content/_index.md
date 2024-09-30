@@ -63,7 +63,7 @@ sections:
             - <strong>Thesis Title:</strong> Machine Learning Based Career Suggestive System in the Informal Job Sector Considering Cognitive Skills. 
             - Conducted research on optimizing machine learning models through hyperparameter tuning to improve predictive performance.
 
-            - Achieved above <strong>90% marks (A+)</strong> in key courses, including: <strong> Data, Structure, Algorithm, Artificial Intelligence, Neural Network, Robotics, Computer Network</strong>.
+            - Achieved above <strong>90% marks (A)</strong> in key courses, including: <strong> Data, Structure, Algorithm, Artificial Intelligence, Neural Network, Robotics, Computer Network</strong>.
 
             - Worked on team projects where I demonstrated leadership and technical expertise in developing software solutions using advanced programming languages and frameworks.
 
@@ -138,14 +138,14 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Immersive Media
-          tag: immersive_media
-        - name: Multimedia Systems
-          tag: multimedia_systems
-        - name: Social Impact
-          tag: social_impact
-        - name: Utils
-          tag: utils
+        - name: ML Project
+          tag: ml_project
+        - name: Undergraduate Project
+          tag: undergraduate_project
+        - name: Masters Project
+          tag:  masters_project
+        - name: Misc
+          tag: misc
     design:
       columns: '2'
       view: 2

@@ -29,10 +29,10 @@ social:
 - icon : orcid
   icon_pack : ai
   link : 'https://orcid.org/0009-0009-4306-0541'
-- icon: cv
+- #icon: cv
   icon_pack: ai
   link: cv
-- icon: certificate
+- #icon: certificate
   icon_pack: fas
   link: certificates/
 
@@ -49,4 +49,4 @@ interests:
 user_groups:
 - Researchers
 ---
-<div style="text-align: justify">Hello, this is <strong>Md Tousif Hasan Lavlu.</strong> Currenlty, I am serving as a <strong>Lecturer</strong> at  <strong>Shanto-Mariam University of Creative Technology</strong>, department of CSE. I have completed my <strong>Bachelor of Science in Computer Science and Engineering</strong> from <strong>BRAC University</strong> and currently pursuing <strong>Master of Science Information and Communication Techonology</strong> at <strong>Bangladesh University of Engineering and Technology (BUET).</strong> I have a strong interest in<strong> Machine Learning</strong>, particularly in its application to solve complex problems across various domains. I aim to investigate novel techniques and approaches that improve the predictive capabilities of machine learning models. I explore reinforcement learning to develop adaptive systems that can learn optimal actions through interactions with their environment. Federated learning intrigues me for its potential to enable collaborative learning while preserving data privacy. Additionally, I am keen on advancing computer vision techniques to enhance machines' ability to interpret and understand visual information. Lastly, I am interested in cognitive computing, which aims to simulate human thought processes in complex situations.</div>
+<div style="text-align: justify">Hello, this is <strong>Md Tousif Hasan Lavlu.</strong> Currenlty, I am serving as a <strong>Lecturer</strong> at  <strong>Shanto-Mariam University of Creative Technology</strong>, department of CSE. I have completed my <strong>Bachelor of Science in Computer Science and Engineering</strong> from <strong><em>BRAC University</strong></em> and currently pursuing <strong>Master of Science Information and Communication Techonology</strong> at <strong><em>Bangladesh University of Engineering and Technology (BUET).</strong></em> I have a strong interest in<strong> Machine Learning</strong>, particularly in its application to solve complex problems across various domains. My research focuses on enhancing machine learning models' predictive capabilities through novel techniques, including reinforcement learning for adaptive systems, federated learning for privacy-preserving collaboration, computer vision for improved visual interpretation, and cognitive computing to simulate human thought in complex scenarios.</div>
