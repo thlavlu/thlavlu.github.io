@@ -113,6 +113,7 @@ sections:
           I truly believe technology can be a vehicle for social impact, especially in multimedia. Today, multimedia/web/video data are spread and are useful for accessibility, governance transparency, minority inclusion, social justice/activism, etc.
     design:
       columns: '2'
+  # Publications    
   - block: portfolio
     id: publications
     content:
@@ -142,7 +143,7 @@ sections:
       view: 2
       flip_alt_rows: false
       
-
+# Projects
   - block: portfolio
     id: projects
     content:
@@ -165,7 +166,7 @@ sections:
       columns: '2'
       view: 2
       flip_alt_rows: false
-      
+# Location
   - block: contact
     id: contact
     content:
