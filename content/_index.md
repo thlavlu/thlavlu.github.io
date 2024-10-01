@@ -81,36 +81,67 @@ sections:
       text: |-
         
           Intro.....
-          ### Federated Learning
+          ### Machine Learning
           Todo.....
-
           Some of my contributions in the field of machine learning:
 
-          - 📄 [Advances in Ginga middleware for TV 2.5 (pt-br)](https://set.org.br/news-revista-da-set/artigo-news-revista-da-set/avancos-do-middleware-ginga-para-tv-2-5/)
-          - 📄 [Interactive 360-degree Videos in Ginga-NCL Using Head-Mounted-Displays as Second Screen Devices](https://dl.acm.org/doi/abs/10.1145/3428658.3430972)
-          - 📄 [Extending multimedia languages to support multimodal user interactions](https://link.springer.com/article/10.1007/s11042-016-3846-8)
+          - 📄 [Contribution Title](https://dl.acm.org/doi/abs/10.1145/3428658.3430972)
+
 
           For me, some important researchers in this field are:
-          🎓 [Klara Nahrstedt](https://scholar.google.com/citations?user=TW0t25AAAAAJ&hl=en&oi=ao)
-          🎓 [Christian Timmerer](https://scholar.google.com/citations?hl=en&user=WqVnh0IAAAAJ)
+          🎓 [Author name](https://scholar.google.com/citations?hl=en&user=WqVnh0IAAAAJ)
 
-          ### Machine Learning Algorithm
+          ### Federated Learning
+          Todo.....
+          Some of my contributions in the field of machine learning:
 
-          Todo....
+          - 📄 [Contribution Title](https://dl.acm.org/doi/abs/10.1145/3428658.3430972)
 
-          Some of my contributions in the field are in 360 videos:
-
-          - 📄 [Subjective Evaluation of 360-degree Sensory Experiences](https://ieeexplore.ieee.org/abstract/document/8901743)
-          - 📄 [An Authoring Model for Interactive 360 Videos](https://ieeexplore.ieee.org/abstract/document/9105958)
 
           For me, some important researchers in this field are:
-          🎓 [Pablo Cesar, CWI](https://scholar.google.com/citations?hl=en&user=guRMl5IAAAAJ),
-          🎓 [Jesús Gutiérrez](https://scholar.google.com/citations?hl=en&user=t_WCdAsAAAAJ)
-          🎓 [Cornelius Hellge](https://scholar.google.com/citations?hl=en&user=Bb3G13cAAAAJ)
+          🎓 [Author name](https://scholar.google.com/citations?hl=en&user=WqVnh0IAAAAJ)
 
-          ### Social Impact
+          ### Reinforcement Learning
+          Todo.....
+          Some of my contributions in the field of machine learning:
 
-          I truly believe technology can be a vehicle for social impact, especially in multimedia. Today, multimedia/web/video data are spread and are useful for accessibility, governance transparency, minority inclusion, social justice/activism, etc.
+          - 📄 [Contribution Title](https://dl.acm.org/doi/abs/10.1145/3428658.3430972)
+
+
+          For me, some important researchers in this field are:
+          🎓 [Author name](https://scholar.google.com/citations?hl=en&user=WqVnh0IAAAAJ)
+
+          ### Computer Vision
+          Todo.....
+          Some of my contributions in the field of machine learning:
+
+          - 📄 [Contribution Title](https://dl.acm.org/doi/abs/10.1145/3428658.3430972)
+
+
+          For me, some important researchers in this field are:
+          🎓 [Author name](https://scholar.google.com/citations?hl=en&user=WqVnh0IAAAAJ)
+
+          ### Cognitive Computing
+          Todo.....
+          Some of my contributions in the field of machine learning:
+
+          - 📄 [Contribution Title](https://dl.acm.org/doi/abs/10.1145/3428658.3430972)
+
+
+          For me, some important researchers in this field are:
+          🎓 [Author name](https://scholar.google.com/citations?hl=en&user=WqVnh0IAAAAJ)
+
+          ### Health Informatics
+          Todo.....
+          Some of my contributions in the field of machine learning:
+
+          - 📄 [Contribution Title](https://dl.acm.org/doi/abs/10.1145/3428658.3430972)
+
+
+          For me, some important researchers in this field are:
+          🎓 [Author name](https://scholar.google.com/citations?hl=en&user=WqVnh0IAAAAJ)
+
+
     design:
       columns: '2'
   # Publications    
