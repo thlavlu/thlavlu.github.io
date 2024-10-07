@@ -49,7 +49,7 @@ jobs:
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: update content/publication using hugo academic cli
-        run: scripts/update_publication.sh
+        #run: scripts/update_publication.sh
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
