@@ -155,7 +155,7 @@ sections:
        # {{% /callout %}}
       filters:
         folders:
-          - publications
+          - mypublications
       buttons:
         - name: All
           tag: '*'
