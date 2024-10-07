@@ -182,7 +182,7 @@ sections:
       title: Projects
       filters:
         folders:
-          - projects1
+          - projects
       buttons:
         - name: All
           tag: '*'
