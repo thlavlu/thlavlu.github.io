@@ -151,8 +151,9 @@ sections:
       title: Publications
       #text: |-
        # {{% callout note %}}
-       # Quickly discover relevant content by [filtering publications](./publication/).
-       # {{% /callout %}}
+       # Quickly discover relevant content by [filtering publications]
+       #(./publication/).
+        #{{% /callout %}}
       filters:
         folders:
           - publications
@@ -181,7 +182,7 @@ sections:
       title: Projects
       filters:
         folders:
-          - projects
+          - projects1
       buttons:
         - name: All
           tag: '*'
@@ -197,6 +198,7 @@ sections:
       columns: '2'
       view: 2
       flip_alt_rows: false
+
 # Location
   - block: contact
     id: contact
