@@ -195,6 +195,33 @@ sections:
       columns: '2'
       view: 2
       flip_alt_rows: false
+
+  #Accomplishment
+  - block: Accomplishments
+    id: achievments
+    content:
+      title: Achievments
+      subtitle: ''
+      text: ''
+      # Date format: https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      items:
+      # java Certification Course
+        - title: Java Certification Course
+          certificate_url: https://drive.google.com/file/d/1P4OnYRXA2gjbU8dm6HmMqzoNXjbHYD6R/view?usp=sharing
+          date_end: ''
+          date_start: '2022-11-08'
+          description: 'I have successfully completed the advance Java Certification Course which is offered by Google in corporation with Simplilearn. This is a 9 hours course which include Core Java 8 concepts. But it will take lot more than 9 hours for understanding concept and self practices. Some of the core things are #JavaEE, #JavaServlet, #JavaServerPages, #JSPLifeCycle, #HibernateQueries, #Springframework, #DependencyInjection, #SpringAOP, #SpringJDBC, #SpringMVC, #SOA.' 
+          icon: simplilearn
+          organization: Simplilearn
+          organization_url: https://www.simplilearn.com/
+          url: ''
+      # 
+
+    design:
+      columns: '2'
+
+
 # Location
   - block: contact
     id: contact
