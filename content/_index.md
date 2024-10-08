@@ -159,10 +159,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Journal
-          tag: journal
-        - name: Conference
-          tag: conference
+        - name: Published
+          tag: published
         - name: Under Submission
           tag:  under_submission
         - name: Ongoing
@@ -209,9 +207,9 @@ sections:
         postcode: ''
         country: Bangladesh
         country_code: +88
-      coordinates:
-        latitude: '23.8041' 
-        longitude: '90.4152'
+      #coordinates:
+       # latitude: '23.8041' 
+       # longitude: '90.4152'
      # directions: Room 142, Polly Vacher
       autolink: true
     design:

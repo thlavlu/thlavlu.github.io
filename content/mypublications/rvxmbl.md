@@ -1,7 +1,7 @@
 ---
 title: 'RvXmBlendNet: A Multi-architecture Hybrid Model for Improved Skin Cancer Detection'
 tags:
-- journal
+- published
 - 
 links:
   - icon: doi

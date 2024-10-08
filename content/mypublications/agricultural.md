@@ -1,7 +1,7 @@
 ---
 title: 'Enhancing Agricultural Productivity: A Machine Learning Approach to Crop Recommendations'
 tags:
-- journal
+- published
 - 
 links:
   - icon: doi
