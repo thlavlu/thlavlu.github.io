@@ -77,69 +77,36 @@ sections:
     id: research
     content:
       title: Research Interests
-      subtitle: 'Machine Learning'
+      subtitle: 'Artifical Intelligence'
       text: |-
-        
-          Intro.....
           ### Machine Learning
-          Todo.....
-          Some of my contributions in the field of machine learning:
-
-          - 📄 [Contribution Title](https://dl.acm.org/doi/abs/10.1145/3428658.3430972)
-
-
-          For me, some important researchers in this field are:
-          🎓 [Author name](https://scholar.google.com/citations?hl=en&user=WqVnh0IAAAAJ)
+          My primary research focus lies in the expansive and rapidly evolving field of Machine Learning, driven by its potential to revolutionize industries and solve complex problems. I am particularly passionate about the interdisciplinary nature of machine learning, which allows me to blend theory and application to develop innovative solutions across various domains. My research spans several cutting-edge subdomains, where I aim to contribute both to the advancement of theoretical foundations and to the practical deployment of machine learning systems.
 
           ### Federated Learning
-          Todo.....
-          Some of my contributions in the field of machine learning:
-
-          - 📄 [Contribution Title](https://dl.acm.org/doi/abs/10.1145/3428658.3430972)
-
-
-          For me, some important researchers in this field are:
-          🎓 [Author name](https://scholar.google.com/citations?hl=en&user=WqVnh0IAAAAJ)
+          As the demand for privacy-preserving machine learning grows, my work focuses on federated learning techniques, which allow models to be trained on decentralized data while maintaining user privacy. This is particularly relevant in industries like healthcare and finance, where sensitive data is prevalent.
 
           ### Reinforcement Learning
-          Todo.....
-          Some of my contributions in the field of machine learning:
-
-          - 📄 [Contribution Title](https://dl.acm.org/doi/abs/10.1145/3428658.3430972)
-
-
-          For me, some important researchers in this field are:
-          🎓 [Author name](https://scholar.google.com/citations?hl=en&user=WqVnh0IAAAAJ)
+          This branch of machine learning excites me due to its potential for solving complex, dynamic decision-making problems. My research aims to apply reinforcement learning techniques to areas like robotics and game AI, where agents learn optimal behaviors through interaction with their environments.
 
           ### Computer Vision
-          Todo.....
-          Some of my contributions in the field of machine learning:
-
-          - 📄 [Contribution Title](https://dl.acm.org/doi/abs/10.1145/3428658.3430972)
-
-
-          For me, some important researchers in this field are:
-          🎓 [Author name](https://scholar.google.com/citations?hl=en&user=WqVnh0IAAAAJ)
+          I am particularly fascinated by how machine learning models can be used to understand and 
+          interpret visual information from the world. I focus on developing algorithms for image 
+          classification, object detection, and segmentation, aiming to improve automation in tasks 
+          like medical imaging, autonomous driving, and video surveillance.
 
           ### Cognitive Computing
-          Todo.....
-          Some of my contributions in the field of machine learning:
+          I am intrigued by how machine learning can mimic human thought processes, leading to the development of systems capable of reasoning, learning, and decision-making in real time. My research focuses on applying cognitive computing to areas like natural language understanding and intelligent systems.
 
-          - 📄 [Contribution Title](https://dl.acm.org/doi/abs/10.1145/3428658.3430972)
-
-
-          For me, some important researchers in this field are:
-          🎓 [Author name](https://scholar.google.com/citations?hl=en&user=WqVnh0IAAAAJ)
+          ### Cloud Computing
+          With the growing adoption of cloud platforms, I am exploring how machine learning models can be efficiently deployed and scaled in cloud environments. My interest here lies in leveraging cloud resources to facilitate real-time processing, distributed learning, and scalable data pipelines.
 
           ### Health Informatics
-          Todo.....
-          Some of my contributions in the field of machine learning:
-
-          - 📄 [Contribution Title](https://dl.acm.org/doi/abs/10.1145/3428658.3430972)
-
-
+          he healthcare sector presents a unique opportunity to apply machine learning to improve patient outcomes, disease prediction, and treatment personalization. I am focused on leveraging machine learning models for early diagnosis, predictive analytics in patient data, and optimizing healthcare operations. This includes using deep learning for medical imaging, federated learning for secure data sharing between hospitals, and reinforcement learning to optimize treatment plans. By integrating AI-driven solutions into healthcare systems, I aim to contribute to more efficient, accurate, and accessible care.
+          
           For me, some important researchers in this field are:
-          🎓 [Author name](https://scholar.google.com/citations?hl=en&user=WqVnh0IAAAAJ)
+          🎓 [Md Tousif Hasan Lavlu](https://scholar.google.com/citations?user=fE-nhx4AAAAJ&hl=en)
+
+      #- 📄 [Contribution Title](https://dl.acm.org/doi/abs/10.1145/#3428658.3430972)
 
 
     design:
@@ -206,17 +173,76 @@ sections:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
       items:
-      # java Certification Course
+      # VC's list
+        - title: VC's List
+          certificate_url: ''
+          date_end: '2022-05-01'
+          date_start: '2018-04-01'
+          description: ''
+          icon: bracu
+          organization: BRAC University
+          organization_url: 'http://www.bracu.ac.bd/'
+          url: ''
+          # Merit based scholarship
+        - title: Merit Based Scholarship
+          certificate_url: ''
+          date_end: '2020-01-01'
+          date_start: '2022-01-01'
+          description: '' 
+          icon: bracu
+          organization: BRAC University
+          organization_url: 'http://www.bracu.ac.bd/'
+          url: ''
+          # Java certifications
         - title: Java Certification Course
           certificate_url: https://drive.google.com/file/d/1P4OnYRXA2gjbU8dm6HmMqzoNXjbHYD6R/view?usp=sharing
           date_end: ''
           date_start: '2022-11-08'
-          description: 'I have successfully completed the advance Java Certification Course which is offered by Google in corporation with Simplilearn. This is a 9 hours course which include Core Java 8 concepts. But it will take lot more than 9 hours for understanding concept and self practices. Some of the core things are #JavaEE, #JavaServlet, #JavaServerPages, #JSPLifeCycle, #HibernateQueries, #Springframework, #DependencyInjection, #SpringAOP, #SpringJDBC, #SpringMVC, #SOA.' 
+          description: 'I have successfully completed the advance Java Certification Course which is offered by 
+                        Google in corporation with Simplilearn. This is a 9 hours course which include Core Java 
+                        8 concepts. But it will take lot more than 9 hours for understanding concept and self practices. 
+                        Some of the core things are #JavaEE, #JavaServlet, #JavaServerPages, #JSPLifeCycle, #HibernateQueries, 
+                        #Springframework, #DependencyInjection, #SpringAOP, #SpringJDBC, #SpringMVC, #SOA.' 
           icon: simplilearn
           organization: Simplilearn
           organization_url: https://www.simplilearn.com/
           url: ''
-      # 
+          # Competitive Programming
+        - title: Moderator Programming Contest CSE Fest 2023
+          certificate_url: 'https://drive.google.com/drive/u/0/folders/1OjP4UiTKQklhB0mjZH1HXFcLx0sliTH2'
+          date_end: ''
+          date_start: '2022-08-17'
+          description: 'I had the honor of serving as a Problem Setter and Moderator for the Programming Contest at 
+                        CSE Fest 2023 V2 which was held on July, 2023, hosted by the Department of Computer Science and 
+                        Engineering (CSE) and Computer Science and Information Technology (CSIT) at Shanto-Mariam University
+                        of Creative Technology. The event was a tremendous success, bringing together brilliant minds and fostering
+                        a spirit of innovation and collaboration. It was exhilarating to witness the participants enthusiasm and 
+                        problem-solving skills as they tackled challenging problems.' 
+          icon: smuct
+          organization: Shanto-Mariam University of Creative Technology
+          organization_url: https://smuct.ac.bd/
+          url: ''
+          # Cloud certification
+        - title: Cloud Certification AZ 104
+          certificate_url: 'https://drive.google.com/file/d/1F5rL1PhU_wu_WVq3etFoSF579KJ9RMae/view'
+          date_end: ''
+          date_start: '2022-11-08'
+          description: 'The AZ-104 certification course focuses on Microsoft Azure Administration. 
+                        By completing this course, you would have gained knowledge and skills in areas such as: 
+                        Azure identity and governance management: Managing Azure Active Directory (AD), role-based 
+                        access control (RBAC), and subscriptions. Azure resource management: Implementing and managing 
+                        storage accounts, monitoring resources using tools like Azure Monitor, and managing virtual machines (VMs). 
+                        Virtual networks: Configuring and managing virtual networks, load balancers, and troubleshooting network connectivity.
+                        Azure storage solutions: Implementing secure data transfer, managing storage access, and backup strategies. Monitoring and 
+                        backup: Setting up Azure alerts, utilizing Azure Backup, and managing disaster recovery with Azure Site Recovery.' 
+          icon: 
+          organization: Syava, Microsoft
+          organization_url: 'https://www.microsoft.com/en-us/'
+          url: ''
+          
+
+
+          
 
     design:
       columns: '2'
