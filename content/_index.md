@@ -27,6 +27,8 @@ sections:
             - <strong> Problem Setter and Moderator for Competitive Programming Contests:</strong> Serve as a problem setter and moderator for various competitive programming contests, enabling students to experience real-world problem-solving scenarios.
 
             - <strong>Supervising Student Research:</strong> Mentor students in conducting research on machine learning, from formulating research problems to achieving results.Moreover, guiding students on projects using different programming languages (e.g., Python, Java, C++) to solve real-world problems.
+            
+            - <strong>Supervising Student Research:</strong> Mentor students in conducting research on machine learning, from formulating research problems to achieving results.Moreover, guiding students on projects using different programming languages (e.g., Python, Java, C++) to solve real-world problems.
 
       columns: '1'
   - block: experience
