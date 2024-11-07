@@ -16,7 +16,7 @@ bio: ""
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:thlavlu@gmail.com'
+  link: 'mailto:tousif.lavlu@smuct.ac.bd'
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=fE-nhx4AAAAJ&hl=en
@@ -43,6 +43,7 @@ interests:
   - Reinforcement Learning
   - Cognitive Computing
   - Health Informatics
+  - Adversarial Machine Learning
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.

@@ -23,9 +23,9 @@ header:
     highlight_active_link: true
 footer:
   copyright:
-    notice: '©2024 Md Tousif Hasan Lavlu. This work is licensed under {license}'
+    notice: '©2024 Md Tousif Hasan Lavlu | Last update on November, 2024'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false

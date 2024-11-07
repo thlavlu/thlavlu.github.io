@@ -22,13 +22,15 @@ sections:
           date_start: '2022-11-15'
           date_end: ''
           description: |2-
+
+             As a lecturer, my role is to foster a dynamic and supportive learning environment that encourages intellectual growth, critical thinking, and practical application of knowledge. I am committed to guiding students through complex topics, helping them develop both theoretical understanding and hands-on skills. By providing personalized mentorship and constructive feedback, I aim to inspire curiosity and motivate students to pursue excellence in their academic endeavors.
+
             - <strong> Mentoring Competitive Programming Enthusiasts:</strong> Actively mentor students participating in competitive programming, guiding them through problem-solving techniques, algorithmic thinking, and contest preparation.
 
             - <strong> Problem Setter and Moderator for Competitive Programming Contests:</strong> Serve as a problem setter and moderator for various competitive programming contests, enabling students to experience real-world problem-solving scenarios.
 
             - <strong>Supervising Student Research:</strong> Mentor students in conducting research on machine learning, from formulating research problems to achieving results.Moreover, guiding students on projects using different programming languages (e.g., Python, Java, C++) to solve real-world problems.
             
-            - <strong>Supervising Student Research:</strong> Mentor students in conducting research on machine learning, from formulating research problems to achieving results.Moreover, guiding students on projects using different programming languages (e.g., Python, Java, C++) to solve real-world problems.
 
       columns: '1'
   - block: experience
@@ -254,7 +256,21 @@ sections:
   - block: contact
     id: contact
     content:
-      title: Contact
+      title: Contact Me
+      #content:
+  # Automatically link email and phone or display as text?
+        #autolink: true
+
+  # Email form provider
+      #form:
+        # provider: netlify
+         #formspree:
+          #id:
+         #netlify:
+      # Enable CAPTCHA challenge to reduce spam?
+         # captcha: true
+
+      email: tousif.lavlu[at]smuct.ac.bd
       address:
         street:
         city: Dhaka - 1230
@@ -267,6 +283,11 @@ sections:
        # longitude: '90.4152'
      # directions: Room 142, Polly Vacher
       autolink: true
+      office_hours:
+        - 'Sunday 8:30 to 4:30'
+        - 'To'
+        - 'Thursday 8:30 to 4:00'
+      directions: Department of CSE & CSIT, Shanto-Mariam University of Creative Technology
     design:
       columns: '2'
 ---
