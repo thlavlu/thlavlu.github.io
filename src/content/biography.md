@@ -1,4 +1,4 @@
-I am a master’s student in Artificial Intelligence and Advanced Information Technology at RheinMain University of Applied Sciences and Arts in Germany. I began my MEng. in October 2026 after completing a B.Sc. in Computer Science and Engineering at BRAC University, where I graduated with a CGPA of 3.75 out of 4.00.
+I am a master’s student in Artificial Intelligence and Advanced Information Technology at RheinMain University of Applied Sciences and Arts in Germany. I began my MEng. in October 2026 after completing a B.Sc. in Computer Science and Engineering at BRAC University.
 
 Before starting my master’s, I worked in university teaching in Bangladesh, with appointments at Northern University Bangladesh, Bangladesh University of Textiles, and Shanto-Mariam University of Creative Technology. My experience also includes advising an AI community and mentoring students in competitive programming.
 

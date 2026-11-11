@@ -18,8 +18,6 @@ I am pursuing advanced study in AI and information technology, building on my ex
 ### B.Sc. in Computer Science and Engineering
 **BRAC University** · March 2018 – May 2022
 
-CGPA: **3.75 / 4.00**
-
 My undergraduate studies provided the foundation for my later work in teaching, programming, and machine learning research. Alongside academic study, I participated in programming contests, student leadership, and university events.
 
 #### Highlights
