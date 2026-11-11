@@ -1,0 +1,1 @@
+{"name": "tousif-research-portfolio", "version": "1.0.0", "type": "module", "scripts": {"dev": "astro dev --host 0.0.0.0", "build": "astro build"}, "dependencies": {"astro": "^5.0.0"}}

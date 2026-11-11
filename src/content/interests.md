@@ -1,0 +1,5 @@
+- **Machine learning and deep learning:** learning useful representations and comparing methods through careful evaluation.
+- **Generative AI and language models:** chatbot algorithms, dialogue systems, and the use of large language models in intelligent applications.
+- **Computer vision:** medical image analysis, multi-view video, and 3D reconstruction.
+- **Federated and trustworthy learning:** distributed model training, adversarial machine learning, and reliable AI systems.
+- **Applied AI:** healthcare data, electronic health record standardization, and data-driven recommendation systems.

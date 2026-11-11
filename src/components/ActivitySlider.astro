@@ -1,0 +1,33 @@
+---
+const activities = Object.entries(import.meta.glob('../content/activities/*.md', {eager:true})).map(([path,mod]:[string,any])=>({...mod.frontmatter,Content:mod.Content})).sort((a,b)=>a.order-b.order);
+---
+<div class="activity-slider" role="region" aria-roledescription="carousel" aria-label="Activities and participation" tabindex="0">
+<div class="activity-slides">
+{activities.map((activity,index)=><article class="activity-slide" hidden={index!==0} aria-roledescription="slide" aria-label={`${index+1} of ${activities.length}`}>
+{activity.photo ? <img class="activity-photo" src={activity.photo} alt={activity.photoAlt || activity.title} loading="lazy" width="900" height="500"/> : <div class="activity-photo activity-photo-empty"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1"/><circle cx="8" cy="9" r="1.5"/><path d="m3 17 5-5 4 4 3-3 6 6"/></svg><span>Activity photo to be added</span></div>}
+<div class="activity-caption"><h4>{activity.title}</h4><p class="activity-event">{activity.event}</p><p class="activity-meta">{activity.date} <span>·</span> {activity.role}</p>{activity.location&&<p class="activity-location">{activity.location}</p>}<div class="activity-description"><activity.Content/></div>{(activity.slides||activity.photos||activity.video)&&<div class="publication-links">{activity.slides&&<a href={activity.slides} target="_blank" rel="noopener noreferrer">Slides</a>}{activity.photos&&<a href={activity.photos} target="_blank" rel="noopener noreferrer">Photos</a>}{activity.video&&<a href={activity.video} target="_blank" rel="noopener noreferrer">Video</a>}</div>}</div>
+</article>)}
+</div>
+<div class="activity-controls"><button type="button" class="activity-autoplay" data-activity-play aria-label="Pause automatic slideshow">Ⅱ</button><button type="button" data-activity-prev aria-label="Previous activity">←</button><span data-activity-status aria-live="polite" aria-atomic="true">1 / {activities.length}</span><button type="button" data-activity-next aria-label="Next activity">→</button></div>
+</div>
+<script>
+document.querySelectorAll<HTMLElement>('.activity-slider').forEach(slider=>{
+ const slides=Array.from(slider.querySelectorAll<HTMLElement>('.activity-slide'));let current=0;
+ const motion=window.matchMedia('(prefers-reduced-motion: reduce)');
+ let playing=!motion.matches, hovered=false, timer:ReturnType<typeof setInterval>|undefined;
+ const playButton=slider.querySelector<HTMLButtonElement>('[data-activity-play]')!;
+ const status=slider.querySelector<HTMLElement>('[data-activity-status]')!;
+ const show=(next:number)=>{current=(next+slides.length)%slides.length;slides.forEach((s,i)=>s.hidden=i!==current);status.textContent=`${current+1} / ${slides.length}`};
+ const stop=()=>{if(timer!==undefined){clearInterval(timer);timer=undefined}};
+ const refresh=()=>{stop();playButton.textContent=playing?'Ⅱ':'▶';playButton.setAttribute('aria-label',playing?'Pause automatic slideshow':'Start automatic slideshow');const focused=slider.contains(document.activeElement);status.setAttribute('aria-live',playing&&!hovered&&!focused?'off':'polite');if(playing&&!hovered&&!focused&&!document.hidden&&slides.length>1)timer=setInterval(()=>show(current+1),5000)};
+ playButton.addEventListener('click',()=>{playing=!playing;refresh()});
+ slider.addEventListener('mouseenter',()=>{hovered=true;refresh()});slider.addEventListener('mouseleave',()=>{hovered=false;refresh()});
+ slider.addEventListener('focusin',refresh);slider.addEventListener('focusout',()=>queueMicrotask(refresh));
+ document.addEventListener('visibilitychange',refresh);motion.addEventListener('change',()=>{playing=!motion.matches;refresh()});
+ slider.querySelector('[data-activity-prev]')?.addEventListener('click',()=>{show(current-1);refresh()});
+ slider.querySelector('[data-activity-next]')?.addEventListener('click',()=>{show(current+1);refresh()});
+ slider.addEventListener('keydown',e=>{if(e.key==='ArrowRight'){e.preventDefault();show(current+1);refresh()}if(e.key==='ArrowLeft'){e.preventDefault();show(current-1);refresh()}});
+ refresh();
+ let startX=0,startY=0;slider.addEventListener('touchstart',e=>{startX=e.changedTouches[0].clientX;startY=e.changedTouches[0].clientY},{passive:true});slider.addEventListener('touchend',e=>{const dx=e.changedTouches[0].clientX-startX,dy=e.changedTouches[0].clientY-startY;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)){show(current+(dx<0?1:-1));refresh()}},{passive:true});
+});
+</script>
